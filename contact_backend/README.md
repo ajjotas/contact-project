@@ -1,21 +1,31 @@
-# How to run:
+# Como executar:
 
-You have the option to run locally or using Docker.
+Primeiramente, deve-se editar o arquivo *.env* com as configurações do servidor SMTP utilizado para o envio dos emails.
 
-## Run using docker:
-**What you need installed:** Docker
+Preencher as seguintes variáveis:
+MAIL_USERNAME= #usuário do servidor SMTP
+MAIL_PASSWORD= #senha do usuário do servidor SMTP
+MAIL_FROM_ADDRESS= #endereço do e-mail remetente
+MAIL_TO= #endereço do e-mail destinatário
 
-On a *command prompt*, run *docker-compose up -d --build* at the project root.
+Existe a opção de executar localmente ou utilizando o Docker.
 
-The application will start running on *http://localhost:8000*.
+## Executar com Docker:
+**Precisa ter instalado:** Docker
 
-## Run locally, without docker:
-**What you need installed:** PHP version 7.2 or higher, Composer v2.1.8
+Em um *command prompt*, executar *docker-compose up -d --build* na raiz do projeto.
 
-At the project root, run  the command *composer install*.
+A aplicação começará a ser executada no endereço *http://localhost:8000*.
 
-Delete any files in the *bootstrap/cache* directory.
+## Executar localmente, sem o Docker:
+**Precisa ter instalado:** PHP version 7.2+, Composer v2.1.8
 
-Run *php artisan serve*.
+Na raiz do projeto, executar o comando *composer install*.
 
-The application will start running on *http://localhost:8000*.
+Deletar quaisquer arquivos no diretório *bootstrap/cache*.
+
+Executar o comando *php artisan cache:clear*
+
+Executar *php artisan serve*.
+
+A aplicação começará a ser executada no endereço *http://localhost:8000*.
