@@ -1,15 +1,15 @@
-## Run using docker:
-**What you need installed:** Docker
+## Executar com Docker:
+**Precisa ter instalado:** Docker
 
-On a *command prompt*, run *docker-compose up -d --build* at the project root.
+Em um *command prompt*, executar *docker-compose up -d --build* na raiz do projeto.
 
-The application will start running on *http://localhost:8080*.
+A aplicação começará a ser executada no endereço *http://localhost:8080*.
 
-## Run locally without docker:
-**What you need installed:** Npm v7.23.0
+## Executar localmente, sem o Docker:
+**Precisa ter instalado:** Npm v7.23.0
 
-At the project root, run  the command *npm install*.
+Na raiz do projeto, executar o comando *npm install*.
 
-Run *npm run serve*.
+Executar *npm run serve*.
 
-The application will start running on *http://localhost:8080*.
+A aplicação começará a ser executada no endereço *http://localhost:8080*.
