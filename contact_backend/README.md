@@ -12,8 +12,7 @@ Preencher as seguintes variáveis:
 
 *MAIL_TO=* #endereço do e-mail destinatário
 
-# Obs.:
-Se for utilizar um e-mail do Gmail como servidor SMTP, lembrar de liberar a opção *Acesso a app menos seguro* nas configurações da conta.
+**Obs.:** Se for utilizar um e-mail do Gmail como servidor SMTP, lembrar de liberar a opção *Acesso a app menos seguro* nas configurações da conta.
 
 Depois, escolher uma das opções de execução: utilizando o Docker ou localmente.
 
