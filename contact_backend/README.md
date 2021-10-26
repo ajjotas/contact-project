@@ -4,13 +4,13 @@ Primeiramente, deve-se editar o arquivo *.env* com as configurações do servido
 
 Preencher as seguintes variáveis:
 
-MAIL_USERNAME= #usuário do servidor SMTP
+*MAIL_USERNAME=* #usuário do servidor SMTP
 
-MAIL_PASSWORD= #senha do usuário do servidor SMTP
+*MAIL_PASSWORD=* #senha do usuário do servidor SMTP
 
-MAIL_FROM_ADDRESS= #endereço do e-mail remetente
+*MAIL_FROM_ADDRESS=* #endereço do e-mail remetente
 
-MAIL_TO= #endereço do e-mail destinatário
+*MAIL_TO=* #endereço do e-mail destinatário
 
 Existe a opção de executar localmente ou utilizando o Docker.
 
